@@ -1,0 +1,38 @@
+{
+  "name": "user-service-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS JWT token based authentication user service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptclump/user-service-nodejs.git"
+  },
+  "keywords": [
+    "JWT",
+    "Authenticatio",
+    "Authorization",
+    "Sequalize",
+    "NodeJs",
+    "Express",
+    "User",
+    "Service"
+  ],
+  "author": "Basant Kumar Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scriptclump/user-service-nodejs/issues"
+  },
+  "homepage": "https://github.com/scriptclump/user-service-nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
